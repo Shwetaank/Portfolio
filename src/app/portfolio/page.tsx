@@ -90,14 +90,14 @@ const ProjectsPage = () => {
                 onHoverStart={() => setHoveredProject(project.id)}
                 onHoverEnd={() => setHoveredProject(null)}
               >
-                <div className="relative w-full h-96 rounded-3xl overflow-hidden shadow-lg group-hover:shadow-xl transition-shadow duration-500">
+                <div className="relative w-full h-96 rounded-md overflow-hidden shadow-lg group-hover:shadow-xl transition-shadow duration-500">
                   <Image
                     src={project.image}
                     alt={project.title}
                     priority
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-cover w-full h-full transition-all duration-500 group-hover:scale-110 group-hover:opacity-70"
+                    className="object-fill w-full h-full transition-all duration-500 group-hover:scale-110 group-hover:opacity-70"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300" />
                   <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
