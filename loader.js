@@ -1,5 +1,5 @@
 "use client";
 
 export default function myImageLoader({ src, width, quality }) {
-  return `https://shwet-tech.com/${src}?w=${width}&q=${quality || 75}`;
+  return `https://shwet.tech/${src}?w=${width}&q=${quality || 75}`;
 }
