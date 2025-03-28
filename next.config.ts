@@ -4,9 +4,9 @@ const nextConfig: NextConfig = {
   output: "export",
   images: {
     loader: "custom",
-    loaderFile: "./loader.js",
+    loaderFile: "./loader.js", // Ensure this file exists
+    unoptimized: true, // Required in "export" mode to disable Next.js optimizations
   },
-  /* config options here */
 };
 
 export default nextConfig;

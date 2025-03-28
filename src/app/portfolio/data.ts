@@ -29,7 +29,7 @@ export const projects: Project[] = [
     image: "/MovieMania.jpg",
     category: "mern",
     githubLink: "https://github.com/Shwetaank/Movies-Booking-App",
-    liveLink: "https://movie-mania.shwet-tech.com/",
+    liveLink: "https://movie-mania.shwet.tech/",
     tags: ["React.js", "Mongo DB", "Redux Toolkit"],
   },
   {
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     image: "/QuizzApp.jpg",
     category: "mern",
     githubLink: "https://github.com/Shwetaank/-quizz-app",
-    liveLink: "https://quizzes.shwet-tech.com/",
+    liveLink: "https://quizzes.shwet.tech/",
     tags: ["React.js", "Tailwind CSS", "Framer-Motion"],
   },
   {

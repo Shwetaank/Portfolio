@@ -27,6 +27,7 @@ import {
   SiSpringboot,
   SiApachekafka,
   SiGo,
+  SiMicrosoftazure,
 } from "react-icons/si";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -191,6 +192,12 @@ const skills: Record<string, Skill[]> = {
       icon: <FaDocker />,
       level: 85,
       hoverColor: "#2496ED",
+    },
+    {
+      name: "Azure",
+      icon: <SiMicrosoftazure />, 
+      level: 80,
+      hoverColor: "#0089D6",
     },
   ],
 };
