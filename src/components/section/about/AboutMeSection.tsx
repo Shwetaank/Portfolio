@@ -196,7 +196,7 @@ const AboutSection: React.FC = () => {
               transition={{ type: "spring", stiffness: 300, damping: 15 }}
               className="flex justify-center"
             >
-              <a href="/my-cv.pdf" download>
+              <a href="/shwetank_resume.pdf" download>
                 <Button className="backdrop-blur-xl w-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 py-4 px-10 rounded-full font-semibold flex items-center space-x-3">
                   <span>Resume</span>
                   <FiDownload className="h-8 w-8" />
